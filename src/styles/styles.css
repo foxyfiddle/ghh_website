@@ -1,0 +1,20 @@
+/* Custom styles overriding Bootstrap */
+
+.nav-style {
+    background-color: rgb(69, 151, 176) !important;
+    height: 100px;
+    color: white !important;
+  }
+  
+  .nav-style .nav-link {
+    color: white !important;
+  }
+  
+  .nav-style .navbar-brand {
+    color: white !important;
+  }
+  
+  nav img {
+    height: 60px; /* Adjust as needed */
+    width: auto; /* Maintain aspect ratio */
+  }
