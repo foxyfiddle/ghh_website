@@ -1,5 +1,12 @@
 /* Custom styles overriding Bootstrap */
 
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: sans-serif;
+}
+
 .nav-style {
     background-color: rgb(69, 151, 176) !important;
     height: 100px;
@@ -18,3 +25,31 @@
     height: 60px; /* Adjust as needed */
     width: auto; /* Maintain aspect ratio */
   }
+
+  .image-container {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+  .background-image {
+    width: 100%;
+    height: auto; /* Full viewport height */
+    display: block;
+  }
+  
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 6rem;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 8px;
+    white-space: nowrap;
+  }
+  
+  
+  

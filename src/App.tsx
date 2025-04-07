@@ -1,11 +1,11 @@
 import NavBar from "./components/Navbar";
-import ImageCarousel from "./components/Carousel";
+import Image from "./components/Image";
 
 function App() {
   return (
     <>
       <NavBar />
-      <ImageCarousel />
+      <Image />
     </>
   );
 }
